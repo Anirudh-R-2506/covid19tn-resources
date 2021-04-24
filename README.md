@@ -9,5 +9,5 @@ Website is hosted at http://covid19tn.epizy.com
 -> Beds\
 -> Oxygen\
 -> Plasma\
--> Vaccination centers and dedicated covid centers\
+-> List of vaccination centers and dedicated covid centers\
 -> List of official covid 19 testing labs, teleconsulting doctors, district and zonal volunteers
