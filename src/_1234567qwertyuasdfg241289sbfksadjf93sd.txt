@@ -1,0 +1,687 @@
+<table id="dtBasicExample" class="table table-striped table-bordered table-sm dataTable no-footer" cellspacing="0" width="100%" role="grid" aria-describedby="dtBasicExample_info" style="width: 100%;">
+                <thead>
+                        <tr role="row"><th rowspan="2" style="text-align: center; width: 29.6px;" class="sorting_asc" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="S.NO: activate to sort column descending" aria-sort="ascending">S.NO</th><th rowspan="2" class="sorting" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="District: activate to sort column ascending" style="width: 104.6px;">District</th><th rowspan="2" class="sorting" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="Institution: activate to sort column ascending" style="width: 112.6px;">Institution</th><th colspan="3" scope="colgroup" rowspan="1">BEDS ALLOCATED FOR COVID AND SUSPECTED CASES</th><th colspan="3" scope="colgroup" rowspan="1">OXYGEN SUPPORTED BEDS</th><th colspan="3" scope="colgroup" rowspan="1">NON-OXYGEN SUPPORTED BEDS</th><th colspan="3" scope="colgroup" rowspan="1">ICU BEDS</th><th colspan="3" scope="colgroup" rowspan="1">VENTILATOR</th><th rowspan="2" style="width: 66.6px;" class="sorting" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="Last updated: activate to sort column ascending">Last updated</th><th rowspan="2" class="sorting" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="Contact Number: activate to sort column ascending" style="width: 83.6px;">Contact Number</th><th rowspan="2" style="width: 77.6px;" class="sorting" tabindex="0" aria-controls="dtBasicExample" colspan="1" aria-label="Remarks: activate to sort column ascending">Remarks</th></tr>
+                        <tr role="row"><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 34.6px;">Total</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Occupied: activate to sort column ascending" style="width: 56.6px;">Occupied</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Vacant: activate to sort column ascending" style="width: 42.6px;">Vacant</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 34.6px;">Total</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Occupied: activate to sort column ascending" style="width: 56.6px;">Occupied</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Vacant: activate to sort column ascending" style="width: 42.6px;">Vacant</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 34.6px;">Total</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Occupied: activate to sort column ascending" style="width: 56.6px;">Occupied</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Vacant: activate to sort column ascending" style="width: 42.6px;">Vacant</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 30.6px;">Total</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Occupied: activate to sort column ascending" style="width: 56.6px;">Occupied</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Vacant: activate to sort column ascending" style="width: 42.6px;">Vacant</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Total: activate to sort column ascending" style="width: 30.6px;">Total</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Occupied: activate to sort column ascending" style="width: 56.6px;">Occupied</th><th scope="col" class="sorting" tabindex="0" aria-controls="dtBasicExample" rowspan="1" colspan="1" aria-label="Vacant: activate to sort column ascending" style="width: 42.6px;">Vacant</th></tr>
+                </thead>
+                <tbody>
+
+                                                        
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                        <tr role="row" class="odd">
+                                        <th scope="row" class="sorting_1">1</th>
+                                        <td class="">Ariyalur</td>
+                                        <td class="">A.S Hospital</td>
+                                        <td>25</td>
+                                        <td>15</td>
+                                        <td>10</td>
+                                        <td>8</td>
+                                        <td>5</td>
+                                        <td>3</td>
+                                         <td>12</td>
+                                        <td>10</td>
+                                        <td>2</td>
+                                         <td>5</td>
+                                        <td>0</td>
+                                        <td>5</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>2021-04-24 09:07:57</td>
+                                        <td>9791295212</td>
+                                        <td></td>
+                                </tr><tr role="row" class="even">
+                                        <th scope="row" class="sorting_1">2</th>
+                                        <td class="">Ariyalur</td>
+                                        <td class="">Golden Hospital</td>
+                                        <td>31</td>
+                                        <td>4</td>
+                                        <td>27</td>
+                                        <td>23</td>
+                                        <td>3</td>
+                                        <td>20</td>
+                                         <td>3</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                         <td>5</td>
+                                        <td>0</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                        <td>5</td>
+                                        <td>2021-04-24 09:09:25</td>
+                                        <td>9842368480</td>
+                                        <td>Report on 24.04.2021
+</td>
+                                </tr><tr role="row" class="odd">
+                                        <th scope="row" class="sorting_1">3</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Annai Arul Hospital </td>
+                                        <td>40</td>
+                                        <td>40</td>
+                                        <td>0</td>
+                                        <td>35</td>
+                                        <td>35</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td>5</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 10:00:26</td>
+                                        <td>4471700700</td>
+                                        <td>24.04.2021</td>
+                                </tr><tr role="row" class="even">
+                                        <th scope="row" class="sorting_1">4</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Chennai Emergency care Centre Pammal</td>
+                                        <td>10</td>
+                                        <td>10</td>
+                                        <td>0</td>
+                                        <td>7</td>
+                                        <td>7</td>
+                                        <td>0</td>
+                                         <td>3</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 12:16:48</td>
+                                        <td>7358244662</td>
+                                        <td>24.04.2021</td>
+                                </tr><tr role="row" class="odd">
+                                        <th scope="row" class="sorting_1">5</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Dr. Rela Institute</td>
+                                        <td>160</td>
+                                        <td>160</td>
+                                        <td>0</td>
+                                        <td>140</td>
+                                        <td>140</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td>20</td>
+                                        <td>20</td>
+                                        <td>0</td>
+                                        <td>6</td>
+                                        <td>6</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 11:25:20</td>
+                                        <td>9842348885</td>
+                                        <td>24-4-21</td>
+                                </tr><tr role="row" class="even">
+                                        <th scope="row" class="sorting_1">6</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Sudar Hospitals, Hasthinapuram</td>
+                                        <td>41</td>
+                                        <td>41</td>
+                                        <td>0</td>
+                                        <td>41</td>
+                                        <td>38</td>
+                                        <td>3</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td>9</td>
+                                        <td>9</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 09:12:21</td>
+                                        <td>9790883397</td>
+                                        <td>24.04.21</td>
+                                </tr><tr role="row" class="odd">
+                                        <th scope="row" class="sorting_1">7</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Sugam Hospital, Chromepet</td>
+                                        <td>50</td>
+                                        <td>50</td>
+                                        <td>0</td>
+                                        <td>48</td>
+                                        <td>48</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td>2</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 10:53:43</td>
+                                        <td>8585858550</td>
+                                        <td>24. 04.2021</td>
+                                </tr><tr role="row" class="even">
+                                        <th scope="row" class="sorting_1">8</th>
+                                        <td class="">Chengalpattu</td>
+                                        <td class="">Deepam Hospitals, West Tambaram </td>
+                                        <td>40</td>
+                                        <td>40</td>
+                                        <td>0</td>
+                                        <td>5</td>
+                                        <td>5</td>
+                                        <td>0</td>
+                                         <td>35</td>
+                                        <td>35</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 09:30:55</td>
+                                        <td>7708610628</td>
+                                        <td>24/04/2021</td>
+                                </tr><tr role="row" class="odd">
+                                        <th scope="row" class="sorting_1">9</th>
+                                        <td class="">Chennai</td>
+                                        <td class="">Apollo Hospital, Greams Road</td>
+                                        <td>124</td>
+                                        <td>124</td>
+                                        <td>0</td>
+                                        <td>42</td>
+                                        <td>42</td>
+                                        <td>0</td>
+                                         <td>35</td>
+                                        <td>35</td>
+                                        <td>0</td>
+                                         <td>45</td>
+                                        <td>45</td>
+                                        <td>0</td>
+                                        <td>45</td>
+                                        <td>45</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 16:03:41</td>
+                                        <td>7397242423</td>
+                                        <td>24.04.2021</td>
+                                </tr><tr role="row" class="even">
+                                        <th scope="row" class="sorting_1">10</th>
+                                        <td class="">Chennai</td>
+                                        <td class="">Apollo Hospitals, Vanagaram</td>
+                                        <td>95</td>
+                                        <td>95</td>
+                                        <td>0</td>
+                                        <td>83</td>
+                                        <td>83</td>
+                                        <td>0</td>
+                                         <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                         <td>12</td>
+                                        <td>12</td>
+                                        <td>0</td>
+                                        <td>7</td>
+                                        <td>7</td>
+                                        <td>0</td>
+                                        <td>2021-04-24 16:37:47</td>
+                                        <td>7824821042</td>
+                                        <td></td>
+                                </tr></tbody>
+                </table>
