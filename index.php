@@ -495,7 +495,7 @@ li :hover{
         <h2>Important Contact Details</h2></div>
         <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/04/Corona-helpline-banner-final-2.jpg" target="_blank">24 hours helpline</a></li>
         <li><a href="https://twitter.com/search?q=verified+chennai+%28bed+OR+beds+OR+icu+OR+oxygen+OR+ventilator+OR+ventilators+OR+fabiflu+OR+remdesivir+OR+favipiravir+OR+tocilizumab+OR+plasma&f=live&lf=on" target="_blank">Chennai twitter search</a></li>
-        <li><a href="https://t.me/fightagainstcovid19" target="_blank">Fight against COVID 19 telegram group</a></li>
+        <li><a href="https://t.me/fightagainstcovid19" target="_blank">Fight against COVID 19 telegram group</a></li>        
         <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/JDHS_Contact.pdf" target="_blank" class="lang" key="DirectoratesofM&amp;RHS" rel="noopener noreferrer">Directorate of Medical &amp; Rural Health Services</a></li>
         <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/04/DPH_PM_CONTACT_DDHS_DEOC_V2.pdf.pdf" target="_blank" class="lang" key="DPH" rel="noopener noreferrer">Directorate of Public Health and Preventive Medicine</a></li>
         <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/DME_Contact.pdf" target="_blank" class="lang" key="DME" rel="noopener noreferrer">Department of Medical Education</a></li>
@@ -505,6 +505,26 @@ li :hover{
 <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/04/Disability-Helpline.jpeg" target="_blank" class="lang" key="DME" rel="noopener noreferrer">Helpline for Persons with Disabilities &amp; Senior Citizens</a></li>
 <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/04/Drug-Control-Helpline.jpeg" target="_blank" class="lang" key="DME" rel="noopener noreferrer">Helpline for Drug Control</a></li>
 <br>
+  <div id="epass" class="card_list weblink_list" style="display: block;">
+        <h2>LOCKDOWN NOTIFICATIONS</h2>        
+      </div>
+      <li><a href="https://eregister.tnega.org/#/user/pass" target="_blank" style="color:red;">All arrivals (other states or international) must be registered at https://eregister.tnega.org</a></li>
+    <?php
+    function incl($el){
+        if (strpos($el,'2021') != false){
+        if (strpos($el,'relax') != false || strpos($el,'down') != false || strpos($el,'ontainment') != false && strpos($el,'dropdown') == false){
+            return true;
+        }}
+        return false;
+    }
+    $ht = file_get_html('https://stopcorona.tn.gov.in/government-of-tamil-nadu/');
+    foreach($ht->find('li') as $el)
+        if (incl($el)){
+            echo $el;
+        }
+?>
+<br>
+   <center><img src="https://www.thehindu.com/news/national/tamil-nadu/gk08lg/article31428412.ece/BINARY/TN-corona-April24JPG"></center> <br>
       <!--Helpline links starts-->
       <div class="card_list helpno_list" style="display: block;">
         <h2>Helpline No.</h2>
@@ -752,13 +772,12 @@ li :hover{
     </tr>
     </tbody>
   </table>
-  <center><img src="/src/sym.jpg"></center>
+  <!--<center><img src="/src/sym.jpg"></center>-->
 </div>        
       <!--Helplines links end  -->
       <div id="epass" class="card_list weblink_list" style="display: block;">
         <h2>SOP</h2>        
       </div>
-    <ul>
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/files/protocol_for_COVID_19_Screening_and_Followup_V__21_03_2020.pdf" target="_blank" rel="noopener noreferrer">Protocol for COVID-19 Screening and Followup</a></li>
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/files/TNSOP_0_Case_definition_1.pdf" target="_blank" rel="noopener noreferrer">TNSOP 0 Case definition </a></li>
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/files/TNSOP_1_A_Version_1_2_Flowchart_for_OP,IP_at_any_health_facilities.pdf" target="_blank" rel="noopener noreferrer">TNSOP 1 A Flowchart for OP,IP at any health facilities </a></li>
@@ -779,7 +798,6 @@ li :hover{
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/files/TNSOP_6-1.1_Version_1.2_Clinical_guidelines_for_COVID_19.pdf" target="_blank" rel="noopener noreferrer">TNSOP 6.1 Clinical guidelines </a></li>
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/TNSOP-6-1-version-1.3.pdf" target="_blank" rel="noopener noreferrer">Clinical Management Guidelines for COVID-19</a> 
          <li><a href="https://stopcorona.tn.gov.in/wp-content/uploads/files/TNSOP_7_General_Advisory.pdf" target="_blank" rel="noopener noreferrer">TNSOP 7 General Advisory </a></li>
-    </ul>
 <br><Br>           
 <link type="text/css" rel="stylesheet" href="/cov_files/covid.css">  </div>
 </div>
@@ -885,4 +903,3 @@ for(i=0;i<num.length;i++){
 
 </script>
 </div>
-<div id="backtotop" class="jquery-once-2-processed" style="display: block;">Back to top</div><div id="lightbox2-overlay" style="display: none;"></div>      <div id="lightbox" style="display: none;" class="lightbox2-orig-layout">        <div id="outerImageContainer" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"><div id="modalContainer" style="display: none; padding: 10px;"></div><div id="frameContainer" style="display: none; padding: 10px;"></div><div id="imageContainer" style="display: none; padding: 10px;"><img id="lightboxImage" alt=""><div id="hoverNav"><a id="prevLink" title="Previous" href="https://www.mygov.in/covid-19#" style="padding-top: 10px;"></a><a id="nextLink" title="Next" href="https://www.mygov.in/covid-19#" style="padding-top: 10px;"></a></div></div><div id="loading"><a href="https://www.mygov.in/covid-19#" id="loadingLink" title=""></a></div></div>        <div id="imageDataContainer" class="clearfix" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">          <div id="imageData"><div id="imageDetails"><span id="caption"></span><span id="numberDisplay"></span></div><div id="bottomNav"><div id="frameHoverNav"><a id="framePrevLink" title="Previous" href="https://www.mygov.in/covid-19#" style="padding-top: 10px;"></a><a id="frameNextLink" title="Next" href="https://www.mygov.in/covid-19#" style="padding-top: 10px;"></a></div><a id="bottomNavClose" title="Close" href="https://www.mygov.in/covid-19#" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"></a><a id="bottomNavZoom" href="https://www.mygov.in/covid-19#" title=""></a><a id="bottomNavZoomOut" href="https://www.mygov.in/covid-19#" title=""></a><a id="lightshowPause" title="Pause Slideshow" href="https://www.mygov.in/covid-19#" style="display: none;"></a><a id="lightshowPlay" title="Play Slideshow" href="https://www.mygov.in/covid-19#" style="display: none;"></a></div></div>        </div>      </div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="/cov_files/widget_iframe.63899b173766ee6f8a729a72b542b0fb.html" title="Twitter settings iframe" style="display: none;"></iframe><div class="kanni-lang-switch-block" id="kanni-lang-switch-block"><label for="kanni-lang-switch">Type method</label><select id="kanni-lang-switch"><option value="en|en">English</option><option value="hindi|hi_tw">Hindi - typewriter</option><option value="hindi|hi_en">Hindi - phonetic</option><option value="hindi|hi_tw_re">Hindi - Remington</option></select><div><input type="checkbox" id="kanni-lang-tips"> tips | <a href="https://www.mygov.in/covid-19#" onclick="Kanni.showKeyboard(); return false;">Keyboard</a></div></div><div class="kanni-lang-tips-block" id="kanni-lang-tips-block" style=""></div><div class="kanni-lang-keyboard-block" id="kanni-lang-keyboard-block"></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="/cov_files/saved_resource.html"></iframe></body></html>
